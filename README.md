@@ -13,6 +13,8 @@ Bu scriptin çalışması için aşağıdaki kütüphanelerin yüklü olması ge
 pip install groq youtube-transcript-api
 ```
 
+Ayrıca [Groq API](https://console.groq.com/keys) oluşturmanız gerekmektedir.
+
 ## Kullanım
 1. Scripti çalıştırın:
    ```sh
