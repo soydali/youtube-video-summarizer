@@ -9,7 +9,7 @@ This Python script retrieves the subtitles of a given YouTube video and generate
 ## Requirements
 The following libraries need to be installed for this script to work:
 
-```sh
+```python
 pip install groq youtube-transcript-api
 ```
 
@@ -27,7 +27,7 @@ Additionally, you need to create a [Groq API](https://console.groq.com/keys) key
 - Replace the `API_KEY` variable with your own Groq API key.
 
 ## Example Execution
-```python
+```sh
 Video link: https://www.youtube.com/watch?v=abcd1234
 Summary: This video covers the topic of XYZ and the key points are...
 ```
