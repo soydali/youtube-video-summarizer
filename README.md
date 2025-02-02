@@ -17,7 +17,7 @@ Additionally, you need to create a [Groq API](https://console.groq.com/keys) key
 
 ## Usage
 1. Run the script:
-   ```sh
+   ```python
    python main.py
    ```
 2. Enter the video link.
@@ -27,7 +27,7 @@ Additionally, you need to create a [Groq API](https://console.groq.com/keys) key
 - Replace the `API_KEY` variable with your own Groq API key.
 
 ## Example Execution
-```sh
+```python
 Video link: https://www.youtube.com/watch?v=abcd1234
 Summary: This video covers the topic of XYZ and the key points are...
 ```
