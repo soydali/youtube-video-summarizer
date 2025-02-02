@@ -9,7 +9,7 @@ This Python script retrieves the subtitles of a given YouTube video and generate
 ## Requirements
 The following libraries need to be installed for this script to work:
 
-```python
+```pip
 pip install groq youtube-transcript-api
 ```
 
