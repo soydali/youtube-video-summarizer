@@ -1,34 +1,34 @@
 # YouTube Video Summary Generator
 
-Bu Python scripti, verilen bir YouTube videosunun altyazılarını alır ve Groq API kullanarak kısa ve açıklayıcı bir özet oluşturur.
+This Python script retrieves the subtitles of a given YouTube video and generates a concise and descriptive summary using the Groq API.
 
-## Özellikler
-- YouTube videosunun altyazılarını otomatik olarak alır.
-- Groq API ile metin analizini gerçekleştirir ve özet oluşturur.
+## Features
+- Automatically retrieves subtitles from a YouTube video.
+- Performs text analysis using the Groq API and generates a summary.
 
-## Gereksinimler
-Bu scriptin çalışması için aşağıdaki kütüphanelerin yüklü olması gerekmektedir:
+## Requirements
+The following libraries need to be installed for this script to work:
 
 ```sh
 pip install groq youtube-transcript-api
 ```
 
-Ayrıca [Groq API](https://console.groq.com/keys) oluşturmanız gerekmektedir.
+Additionally, you need to create a [Groq API](https://console.groq.com/keys) key.
 
-## Kullanım
-1. Scripti çalıştırın:
+## Usage
+1. Run the script:
    ```sh
    python main.py
    ```
-2. Video linkini girin.
-3. Script, altyazıları alıp Groq API'ye göndererek özet döndürecektir.
+2. Enter the video link.
+3. Script retrives subtitles then send to Groq API key and AI model returns the summary.
 
-## Yapılandırma
-- `API_KEY` değişkenini kendi Groq API anahtarınızla değiştirin.
+## Configuration
+- Replace the `API_KEY` variable with your own Groq API key.
 
-## Örnek Çalıştırma
+## Example Execution
 ```sh
-Video linki: https://www.youtube.com/watch?v=abcd1234
-Özet: Bu video XYZ konusunu ele alıyor ve temel noktaları şunlardır...
+Video link: https://www.youtube.com/watch?v=abcd1234
+Summary: This video covers the topic of XYZ and the key points are...
 ```
 
